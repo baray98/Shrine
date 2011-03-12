@@ -12,7 +12,11 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp \
-    rawdatabuffertest.cpp
+    rawdatabuffertest.cpp \
+    ../../rawdataabstract.cpp \
+    ../../rawdatasimulator.cpp
 
 HEADERS += \
-    rawdatabuffertest.h
+    rawdatabuffertest.h \
+    ../../rawdataabstract.h \
+    ../../rawdatasimulator.h
