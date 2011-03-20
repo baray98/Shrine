@@ -1,3 +1,5 @@
 This is a Qt Based project 
 
+Project is dependent on Qwt as plotting GUI
+
 Goal is to provide pipeline inspection company a generic viewer for data
