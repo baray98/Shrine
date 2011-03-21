@@ -3,6 +3,8 @@
 
 #include <QObject>
 
+class RawDataAbstract;
+
 class RawDataBufferTest : public QObject
 {
     Q_OBJECT
@@ -11,6 +13,8 @@ public:
 
 private slots:
     void SimulatorTest();
+private:
+    bool resetTest(RawDataAbstract* const data);
 };
 
 #endif // RAWDATABUFFERTEST_H
