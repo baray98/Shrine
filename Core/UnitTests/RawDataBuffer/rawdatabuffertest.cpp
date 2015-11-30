@@ -1,7 +1,7 @@
 #include "rawdatabuffertest.h"
 #include "./../../rawdatasimulator.h"
 
-#include <QTest>
+#include <QtTest>
 #include <QDebug>
 
 RawDataBufferTest::RawDataBufferTest(QObject *parent) :

@@ -1,5 +1,6 @@
 #include "rawdatasimulator.h"
 #include <vector>
+#include <cassert>
 
 using namespace std;
 
@@ -19,26 +20,27 @@ RawDataSimulator::RawDataSimulator()
 }
 RawDataSimulator::~RawDataSimulator()
 {
-  delete p_data;
+    delete p_data;
 }
 int RawDataSimulator::next()
 {
-
+    assert(false && "Not implemented yet");
+    return 0;
 }
 
 int RawDataSimulator::prev()
 {
-
+    return 0;
 }
 
 int RawDataSimulator::rowCount()
 {
-  return p_data->row.size();
+    return p_data->row.size();
 }
 
 int RawDataSimulator::columnCount()
 {
-   return p_data->col.size();
+    return p_data->col.size();
 }
 int RawDataSimulator::reset()
 {
@@ -66,6 +68,6 @@ int RawDataSimulator::setRowCount(const int size)
 
 int RawDataSimulator::setColumnCount(const int size)
 {
-   p_data->col.clear();
-   p_data->col.resize(size);
+    p_data->col.clear();
+    p_data->col.resize(size);
 }

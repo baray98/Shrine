@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-CONFIG  += qtestlib
+QT  += testlib
 
 TARGET = RawDataBuffer
 
