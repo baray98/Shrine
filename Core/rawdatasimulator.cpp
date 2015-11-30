@@ -45,29 +45,35 @@ int RawDataSimulator::columnCount()
 int RawDataSimulator::reset()
 {
     p_data->m_currenCol = -1;
+
+    return 0;
 }
 int RawDataSimulator::currentColumn()
 {
     return p_data->m_currenCol;
 }
 
-double RawDataSimulator::data(const int x,const int y)
+double RawDataSimulator::data(const int /*x*/,const int /*y*/)
 {
-
+  return 0.0;
 }
 
-int RawDataSimulator::seek(const int index)
+int RawDataSimulator::seek(const int /*index*/)
 {
-
+  return 0;
 }
 int RawDataSimulator::setRowCount(const int size)
 {
     p_data->row.clear();
     p_data->row.resize(size);
+
+    return 0;
 }
 
 int RawDataSimulator::setColumnCount(const int size)
 {
     p_data->col.clear();
     p_data->col.resize(size);
+
+    return 0;
 }
