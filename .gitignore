@@ -1,0 +1,11 @@
+
+*.o
+moc*.*
+
+Core/UnitTests/build-RawDataBuffer-Desktop_Qt_5_4_0_clang_64bit-Debug/RawDataBuffer.app/Contents/PkgInfo
+
+Core/UnitTests/build-RawDataBuffer-Desktop_Qt_5_4_0_clang_64bit-Debug/RawDataBuffer.app/Contents/Info.plist
+
+Core/UnitTests/build-RawDataBuffer-Desktop_Qt_5_4_0_clang_64bit-Debug/RawDataBuffer.app/Contents/MacOS/RawDataBuffer
+
+*.lproj
