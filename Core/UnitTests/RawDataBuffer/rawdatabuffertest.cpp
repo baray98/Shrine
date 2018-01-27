@@ -8,7 +8,7 @@ RawDataBufferTest::RawDataBufferTest(QObject *parent) :
         QObject(parent)
 {
 }
-void RawDataBufferTest::SimulatorTest()
+void RawDataBufferTest::simulatorTest()
 {
     RawDataSimulator sim;
     sim.setColumnCount(10);

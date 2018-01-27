@@ -12,7 +12,7 @@ public:
     explicit RawDataBufferTest(QObject *parent = 0);
 
 private slots:
-    void SimulatorTest();
+    void simulatorTest();
 private:
     bool resetTest(RawDataAbstract* const data);
 };
